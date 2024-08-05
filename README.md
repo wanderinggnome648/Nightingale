@@ -53,6 +53,8 @@ See the LaserCut/SmallLaser folder for SVG files. Note that 2 of the panels are 
 
 To minimize burning of the material, we highly recommend covering the top face of the material with masking tape. Also, after cutting, we recommend sanding edges and inside the holes to eliminate the smoke smell. You don't want a purifier that smells like smoke!
 
+Also, I'm not perfectly happy with the fit of the panels in the split design, and when I make my next few, I'll probably tweak the size a bit. It's tricky: Too big and you risk not fitting into the grooves. Too small, and it wobbles more than I'd like. Feel free to measure it yourself and iterate to get your perfect panel fit. If you find a better fit, let me know. 
+
 ### Large Laser Cutter
 With a larger lasercutter, you can cut the entire panel in 1 piece. 
 ![Diagram of all panels](LaserCut/LargeLaser/AllPanels_Large.png)

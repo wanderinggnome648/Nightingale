@@ -1,16 +1,16 @@
 
 ![Product image](Diagrams/nightingale_header.jpg)
 
-# The Nightingale: An Open-Source, Ultra-Quiet, Automatic, Permanent, Effective Air Purifier With Low Maintence Costs
+# The Nightingale: An Open-Source, Ultra-Quiet, Automatic, Permanent, Effective Air Purifier With Low Maintenance Costs
 
-A PC-fan based air purifier design, the Nightgale's major features are:  
+A PC-fan based air purifier design, the Nightingale's major features are:  
 - **Effective**: Purifies air through two 20x20x2 Merv 13 air filters that are efficient at removing pollen, dust, and infectious aerosols, but have very high air flow.  
 - **Ultra-Quiet**: No need to turn it down or off due to noise because you'll barely know it's running. Uses PC fans designed to push a high volume of air quietly. 
 - **Permanent**: Uses a strong extruded aluminum frame that is a standard profile (1"x1") and easy to source from several manufacturers. 
 - **Automatic**: Turns on when people are present and off when people leave. Always runs at max speed. Nothing to configure (or misconfigure). If it's plugged in, it's on. 
 - **Visual Indicator**: Because the PC fans are so quiet, you might not even know it's on, so energy-efficient, interior lights indicate it is purifying. 
 - **Easy Filter Change**: When you change the filters simply pop them off the side and replace. No disassembly required.
-- **Cheap Maintenance**: No pricey filter replacement costs. Simply use stardard Merv 13, 20x20x2 furnance filters commonly available in the US that cost around $10-$15 per filter (or less when purchased in bulk). Change yearly or after wildfire events. 
+- **Cheap Maintenance**: No pricey filter replacement costs. Simply use standard Merv 13, 20x20x2 furnace filters commonly available in the US that cost around $10-$15 per filter (or less when purchased in bulk). Change yearly or after wildfire events. 
 - **Standard Parts**: If you have a problem, you can fix it yourself. 
 - **Open-Source**: No vendor lock-in. Build it. It's yours. 
 - **Low Energy Consumption** Consumes only enough electricity for 6 PC fans and energy-efficient LED lighting. Turns off when the room is empty. 
@@ -103,9 +103,9 @@ NOTE: The end cap is a standard part and can be obtained elsewhere from TNutz, 8
 ## Filter
 | Quantity | Item | Description | Cost | Link  |
 | -------- | -----| --------- | ---- | ----- | 
-| 2 | Merv 13 20x20x2 Furnance Filter | Filter medium | $10/each | [LINK](https://www.amazon.com/gp/product/B0BL4XBTLN?th=1) |
+| 2 | Merv 13 20x20x2 Furnace Filter | Filter medium | $10/each | [LINK](https://www.amazon.com/gp/product/B0BL4XBTLN?th=1) |
 
-Note: 20x20 furnance filters are NOT 20" long. They are always a little smaller. I designed this purifier to fit a filter with an actual filter size of 19 1/2" x 19 1/2". I do not know how much the furnance filter size varies by manufacturers other than the one above, but I do know most of them are smaller than 20". If your filter is bigger than 19 1/2" it likely won't fit this case. You can make the case a little larger while connecting with the l-connectors to accomodate, but at a certain size the panels won't fit. If the furnance filter is smaller than 19 1/2", probably not a big deal as you can always add foam tape to the outside to get a more snug fit. 
+Note: 20x20 furnace filters are NOT 20" long. They are always a little smaller. I designed this purifier to fit a filter with an actual filter size of 19 1/2" x 19 1/2". I do not know how much the furnace filter size varies by manufacturers other than the one above, but I do know most of them are smaller than 20". If your filter is bigger than 19 1/2" it likely won't fit this case. You can make the case a little larger while connecting with the l-connectors to accommodate, but at a certain size the panels won't fit. If the furnace filter is smaller than 19 1/2", probably not a big deal as you can always add foam tape to the outside to get a more snug fit. 
 
 ## Other Parts and Tools
 - Screwdriver - Connecting the fans to the panels
@@ -120,7 +120,7 @@ Note: 20x20 furnance filters are NOT 20" long. They are always a little smaller.
 
 ![SquareAssembly](Diagrams/SquareFrame.png)
 
-2. Connect the four 7.063" cross beams to form a cube. You use the same L-shape connector as you did earlier, however, you need to configure it in a slightly different way, which puts most of the L-shape connector on the outside of the cross beam. This orientation leaves more space inside the grooves for panels. Tighten all these l-connector screws. No need to overtighten them. (NOTE: We'll untighted one of the l-connectors at the end for the final panel). 
+2. Connect the four 7.063" cross beams to form a cube. You use the same L-shape connector as you did earlier, however, you need to configure it in a slightly different way, which puts most of the L-shape connector on the outside of the cross beam. This orientation leaves more space inside the grooves for panels. Tighten all these l-connector screws. No need to overtighten them. (NOTE: We'll untighten one of the l-connectors at the end for the final panel). 
 
 Also, make sure the two squares you made in Step 1 are oriented in the same way with respect to each other (see panel order diagram below)
 
@@ -156,7 +156,7 @@ Be sure you have the panel corners matching to the right interior corners for it
 
 ![Attaching the fan](Diagrams/FanAttach.jpg)
 
-6. Now take the 3d-printed filter holders and glue them with wood glue inside the box. The filter holders give the filters something to push against and also give you a place to use a zip tie to organize the wiring. Each panel should have 2 filter holders. Glue two at a time and cover with a heavy book until the glue dries. Then rotate the box 90 degree and glue two more. (Images shown with wiring, which you haven't done yet).
+6. Now take the 3d-printed filter holders and glue them with wood glue inside the box. The filter holders give the filters something to push against and also give you a place to use a zip tie to organize the wiring. Each panel should have 2 filter holders. Glue two at a time and cover with a heavy book until the glue dries. Then rotate the box 90 degrees and glue two more. (Images shown with wiring, which you haven't done yet).
 
 ![Filter holder over plain panel](Diagrams/filterholder2.jpg)
 
@@ -199,9 +199,42 @@ A high-level schematic of the wiring is here:
 18. Plug the unit in and ensure the PIR sensor is pointed at where there is most likely to be people, so it can come on when people are present. 
 
 
+## FAQs
+
+### Q: Why buy this instead of HEPA? 
+
+- A: A HEPA filter is originally based on [World War II gas masks](https://en.wikipedia.org/wiki/HEPA), which explains the high efficiency. However, the high efficiency/low airflow is a disadvantage when purifying a room. HEPA purifiers tend to be big, loud, and have costly filter replacements. Furnace filter-based designs that use PC fans are an amazing combination of quiet and highly effective. 
+
+### Q: What's the ideal environment for this design?
+
+- A: I designed this as the purifier I would want in my kid's classroom. In particular, I want to be able to tell my kid to make sure the purifier is running, which is obvious from the LED lighting. Also, I don't want teachers to worry about turning it off/on or changing the speed settings. Finally, I wanted it to be durable, easy to fix if a component breaks, and easy to replace the filters. 
+
+- In cases where classroom space is limited, we're exploring whether we can mount this unit to a wall with aluminum stand-offs. A wall-mount option could save space and keep people from accidentally turning it off. 
+
+### Q: Why is it named 'The Nightingale'? 
+
+- A: [Florence Nightingale](https://en.wikipedia.org/wiki/Florence_Nightingale) (1820-1910) was an activist, statistician, and the founder of modern Nursing. In her book, [*Notes on Nursing: What It Is, and What It Is Not*](https://archive.org/details/notesnursingwhat00nigh/page/6/mode/2up), she writes: 
+
+> The very first canon of nursing, the first and the last thing upon which a nurse's attention must be fixed, the first essential to the patient, without which all the rest you can do for him is as nothing, with which I had almost said you may leave all the rest alone, is this: **TO KEEP THE AIR HE BREATHES AS PURE AS THE EXTERNAL AIR, WITHOUT CHILLING HIM.** 
+
+### Q: What is the clean air delivery rate (CADR) of this unit? 
+
+- A: I haven't tested it yet myself or had it tested by a reputable third party. Having similar dimensions and PC fan design (six P14 Artic PC fans) as the Nukit Tempest, it should have a similar CADR. 
+
 ## Future Directions
+
 Some changes I'd like to make in the future ... 
 
 - Tweak the panel size to better fit in the grooves w/ no slack. 
 - Use a CNC instead of laser cutter to make full-size panels w/ no sanding. 
 - Iterate on the design based on feedback. 
+
+## Acknowledgements
+
+- [Corsi-Rosenthal Box](https://en.wikipedia.org/wiki/Corsi%E2%80%93Rosenthal_Box): In 2020, Corsi and Rosenthal popularized a simple DIY air purifier for removing airborne infectious disease using a box fan, furnace filters, and duct tape. At the time, the idea that a Merv 13 furnace filter, which has only [85% efficiency with tiny particles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127325/) could be better than HEPA filtration which has 99.99% efficiency seemed controversial. However, the key insight was that Merv 13 furnace filters had much better airflow than HEPA filters, which meant the total amount of clean air was much more. Disadvantages of the CR Box was only that it takes up space, the box fan can be louder than ideal for a classroom, and it's a temporary solution made with duct-tape and is not extremely sturdy. [The Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/) is a non-profit dedicated to promoting clean air and provides support to related charitable projects. 
+
+- [Nukit Tempest](https://cybernightmarket.com/products/the-nukit-tempest-air-purifier-kit): An innovative and durable DIY air purifier design, the Tempest is made of metal and highly resembles a PC case. It's sleek and black, the 6 P14 fans are mounted inside, and it also takes 20x20x2 furnace filters. Overall, a near perfect design. It's only weaknesses are that you need to slightly disassemble the unit to replace the air filters, and you may not be able to tell that it's plugged in and running (because it's so quiet). Estimates are around 260-280 CFM. A highly-recommended design for situations where you want durable, simple, and ultra-quiet air cleaning. 
+
+- [AirFanta Pro](https://www.amazon.com/AirFanta-based-Rosenthal-Purifier-3813ft2/dp/B0CJTYWQBT): Amazingly powerful and compact design using custom filters and PC fans, the 3Pro gets 430 CFM at full speed. It has a configurable adapter, which means if you don't mind the noise, you can crank it to max. However, if you want to limit the noise, you can lower the power. Importantly, this purifier is extremely portable -- you can pack it up inside a suitcase and take it with you. It's an absolute steal at $150, especially considering the amazing cleaning power. I own several of these and enthusiastically recommend them to others. In particular, in schools where noise might not be as much of an issue (e.g., cafeteria, common areas), I think this is likely the best bang-for-the-buck. In classrooms, you can also purchase 2 of them and turn them to half speed. 
+
+- My friend Tony, who recommended I check out aluminum frames for air purifiers and provided feedback. 

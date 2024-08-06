@@ -4,18 +4,18 @@
 # The Nightingale: An Open-Source, Ultra-Quiet, Automatic, Permanent, Effective Air Purifier With Low Maintenance Costs
 
 A PC-fan based air purifier design, the Nightingale's major features are:  
-- **Effective**: Purifies air through two 20x20x2 Merv 13 air filters that are efficient at removing pollen, dust, and infectious aerosols, but have very high air flow.  
+- **Effective**: Purifies air through two 20x20x2 MERV 13 air filters that are efficient at removing pollen, dust, and infectious aerosols, but have very high air flow.  
 - **Ultra-Quiet**: No need to turn it down or off due to noise because you'll barely know it's running. Uses PC fans designed to push a high volume of air quietly. 
 - **Permanent**: Uses a strong extruded aluminum frame that is a standard profile (1"x1") and easy to source from several manufacturers. 
 - **Automatic**: Turns on when people are present and off when people leave. Always runs at max speed. Nothing to configure (or misconfigure). If it's plugged in, it's on. 
 - **Visual Indicator**: Because the PC fans are so quiet, you might not even know it's on, so energy-efficient, interior lights indicate it is purifying. 
 - **Easy Filter Change**: When you change the filters simply pop them off the side and replace. No disassembly required.
-- **Cheap Maintenance**: No pricey filter replacement costs. Simply use standard Merv 13, 20x20x2 furnace filters commonly available in the US that cost around $10-$15 per filter (or less when purchased in bulk). Change yearly or after wildfire events. 
+- **Cheap Maintenance**: No pricey filter replacement costs. Simply use standard MERV 13, 20x20x2 furnace filters commonly available in the US that cost around $10-$15 per filter (or less when purchased in bulk). Change yearly or after wildfire events. 
 - **Standard Parts**: If you have a problem, you can fix it yourself. 
 - **Open-Source**: No vendor lock-in. Build it. It's yours. 
-- **Low Energy Consumption** Consumes only enough electricity for 6 PC fans and energy-efficient LED lighting. Turns off when the room is empty. 
+- **Low Energy Consumption** Consumes only enough electricity for six PC fans and energy-efficient LED lighting. Turns off when the room is empty. 
 - **Slim Design**: About the size of a desktop computer, it doesn't take up much space. 
-- **Easy Wiring**: Uses standard connectors interior connectors (dc) that plug together. No soldering required.  
+- **Easy Wiring**: Uses standard connectors interior connectors (DC) that plug together. No soldering required.  
 
 # Release Notes
 
@@ -28,7 +28,7 @@ You can likely do a better job sourcing materials in the quantity you need and o
 
 ## Aluminum Frame
 
-Tnutz is a supplier of extruded aluminim. You can order specific lengths pre-cut. It takes about 5-8 days for processing. We use 1" x 1" t-slot frame, which is also known as 1010 t-slot frame. 
+Tnutz is a supplier of extruded aluminum. You can order specific lengths pre-cut. It takes about 5-8 days for processing. We use 1" x 1" T-slot frame, which is also known as 1010 T-slot frame. 
 
 | Quantity | Type | Length | Fractional length | Total Length | Machining for one end | Machining for other end | Link  |
 |----------|------|--------|-------------------|--------------|-----------------------|-------------------------|-------|
@@ -37,17 +37,17 @@ Tnutz is a supplier of extruded aluminim. You can order specific lengths pre-cut
 
 ## Panels 
 
-We use 1/4" unfinished plywood for the panels because it's an inexpensive, durable material that is easy to find. You can source plywood in 4" x 8" sheets from any hardware store and then cut them down to manageable sheets using a table saw. Alternatively, MakerStock sources plywood in smaller sizes that is idea for GlowForge laser cutting.  
+We use 1/4" unfinished plywood for the panels because it's an inexpensive, durable material that is easy to find. You can source plywood in 4" x 8" sheets from any hardware store and then cut them down to manageable sheets using a table saw. Alternatively, MakerStock sources plywood in smaller sizes that is ideal for Glowforge laser cutting.  
 
 | Quantity | Type | Thickness | Size | Cost/Piece | Link  |
 | ------ | ----- | ---- | ---- | -----  | -----  |
 | 4 | Baltic Birch Plywood | 1/4" | 12x20 | $4.25/sheet |  [LINK](https://makerstock.com/products/baltic-birch-plywood?variant=32477598580833)  |
 
 
-### Glowforge Lasercutter
-The Glowforge is a popular small laser cutter. The glowforge size is slightly too small for the exact panel size that we need, so we break each panel into 2 parts -- the main part and a additional slat. 
+### Glowforge Laser Cutter
+The Glowforge is a popular small laser cutter. The Glowforge size is slightly too small for the exact panel size that we need, so we break each panel into two parts -- the main part and a additional slat. 
 
-See the LaserCut/SmallLaser folder for SVG files. Note that 2 of the panels are duplicates and so you need to cut them twice. 
+See the LaserCut/SmallLaser folder for SVG files. Note that two of the panels are duplicates and so you need to cut them twice. 
 
 ![Diagram of all panels](LaserCut/SmallLaser/AllPanels.png)
 
@@ -56,17 +56,17 @@ To minimize burning of the material, we highly recommend covering the top face o
 Also, I'm not perfectly happy with the fit of the panels in the split design, and when I make my next few, I'll probably tweak the size a bit. It's tricky: Too big and you risk not fitting into the grooves. Too small, and it wobbles more than I'd like. Feel free to measure it yourself and iterate to get your perfect panel fit. If you find a better fit, let me know. 
 
 ### Large Laser Cutter
-With a larger lasercutter, you can cut the entire panel in 1 piece. 
+With a larger laser cutter, you can cut the entire panel in one piece. 
 ![Diagram of all panels](LaserCut/LargeLaser/AllPanels_Large.png)
 
 To minimize burning of the material, we highly recommend covering the material with masking tape. Also, after cutting, we recommend sanding edges and inside the holes to eliminate the smoke smell. You don't want a purifier that smells like smoke. 
 
 ### CNC
-Instead of lasercutting, you can use a CNC to cut the panels. This is preferred to avoid having to sand off burnt material. Refer to the large laser cutter files for panel sizes or the primitives folder. 
+Instead of laser cutting, you can use a CNC to cut the panels. This is preferred to avoid having to sand off burnt material. Refer to the large laser cutter files for panel sizes or the primitives folder. 
 
 *More instructions for CNC coming soon!*
 
-## 3-D Printed Components
+## 3D Printed Components
 
 Required
 | Quantity | Item | Purpose | Filename | Image | 
@@ -87,7 +87,7 @@ NOTE: The end cap is a standard part and can be obtained elsewhere from TNutz, 8
 | 1 | 5-Pack of Artic P14 PC Fans | Discounted pack of 5 fans | $35 | [LINK](https://www.amazon.com/dp/B07HC9ZWDN?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
 | 1 | Artic P14 PC Fans | Single P14 PC Fan (to make 6 total) | $16 | [LINK](https://www.amazon.com/dp/B07GZJY4TM?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
 | 2 | 3-pack of 140 mm fan grills | Covers the fan for safety | $9 | [LINK](https://www.amazon.com/dp/B01BW21DXC?psc=1&ref=ppx_yo2ov_dt_b_product_details)
-| 1 | Adafruit DC Barrel Adapter | Using a 1" hole, this screws on the panel and provides a nice way to plug in the outside ac/dc power adapter | $3 plus shipping | [LINK](https://www.adafruit.com/product/610)
+| 1 | Adafruit DC Barrel Adapter | Using a 1" hole, this screws on the panel and provides a nice way to plug in the outside AC/DC power adapter | $3 plus shipping | [LINK](https://www.adafruit.com/product/610)
 | 1 | AC/DC Adapter | Needs to be compatible with power where you are plugging it in (normally 110 volts in the US) and change to 12 volt, ~2 amp DC power | $5/each | [LINK](https://www.amazon.com/dp/B077PW5JC3?ref=ppx_yo2ov_dt_b_product_details&th=1)
 | 1 | PWM Fan Hub | Connects all the fans to single power cable | $6 | [LINK](https://www.amazon.com/dp/B08C79CQH5?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 | 1 | DC Power 1 Female to 2 Male Y-Splitter | Splits DC power into two for lights and fan hub | $2 | [LINK](https://www.amazon.com/Splitter-Adapter-Y-Cable-Security-Parking/dp/B07J28SX6Y?th=1)
@@ -105,7 +105,7 @@ NOTE: The end cap is a standard part and can be obtained elsewhere from TNutz, 8
 ## Filter
 | Quantity | Item | Description | Cost | Link  |
 | -------- | -----| --------- | ---- | ----- | 
-| 2 | Merv 13 20x20x2 Furnace Filter | Filter medium | $10/each | [LINK](https://www.amazon.com/gp/product/B0BL4XBTLN?th=1) |
+| 2 | MERV 13 20x20x2 Furnace Filter | Filter medium | $10/each | [LINK](https://www.amazon.com/gp/product/B0BL4XBTLN?th=1) |
 
 Note: 20x20 furnace filters are NOT 20" long. They are always a little smaller. I designed this purifier to fit a filter with an actual filter size of 19 1/2" x 19 1/2". I do not know how much the furnace filter size varies by manufacturers other than the one above, but I do know most of them are smaller than 20". If your filter is bigger than 19 1/2" it likely won't fit this case. You can make the case a little larger while connecting with the l-connectors to accommodate, but at a certain size the panels won't fit. If the furnace filter is smaller than 19 1/2", probably not a big deal as you can always add foam tape to the outside to get a more snug fit. 
 
@@ -118,7 +118,7 @@ Note: 20x20 furnace filters are NOT 20" long. They are always a little smaller. 
 - Cable ties - Organizing the wiring
 
 # Assembly
-1. Take four of the 20.5 aluminum pieces and assemble into a square using the L-shape connectors on the side corner (see diagram). Do the same for the other 4 20.5 aluminum pieces. Tighten the screws, but not too tight, because you'll loosen them later. 
+1. Take four of the 20.5 aluminum pieces and assemble into a square using the L-shape connectors on the side corner (see diagram). Do the same for the other four 20.5 aluminum pieces. Tighten the screws, but not too tight, because you'll loosen them later. 
 
 ![SquareAssembly](Diagrams/SquareFrame.png)
 
@@ -136,19 +136,19 @@ For panels 1-3, you will loosen the specified screws underneath where the panel 
 
 ![Where to loosen screws](Diagrams/LoosenPanel.png)
 
-When you loosen these particular screws, a u-shaped portion of the frame will slide out, allowing you to fit the panel inside the grooves and slide back into place.
+When you loosen these particular screws, a U-shaped portion of the frame will slide out, allowing you to fit the panel inside the grooves and slide back into place.
 
 ![Where to loosen screws](Diagrams/PanelSlide.jpg)
 
-Also note that the corner spaces inside the grooves are different on each side. On one side, the corner is free of any l-shape bracket and has more space (see below). 
+Also note that the corner spaces inside the grooves are different on each side. On one side, the corner is free of any L-shape bracket and has more space (see below). 
 
 ![EmptyCorner](Diagrams/PanelInside2.jpg)
 
-On the other side, there is a small part of l-shape bracket visible (see below). 
+On the other side, there is a small part of L-shape bracket visible (see below). 
 
 ![EmptyCorner](Diagrams/PanelInside.jpg)
 
-Be sure you have the panel corners matching to the right interior corners for it to fit properly. Once you have the orientation correct, you can slide the u-shape frame back into place and re-tighten the screws you loosened. You can then move to the next panel section. It's a bit like a puzzle. You can add panels only in 1 direction, but not the other because the panel will keep the frame from sliding out if you go the wrong way.
+Be sure you have the panel corners matching to the right interior corners for it to fit properly. Once you have the orientation correct, you can slide the U-shape frame back into place and re-tighten the screws you loosened. You can then move to the next panel section. It's a bit like a puzzle. You can add panels only in one direction, but not the other because the panel will keep the frame from sliding out if you go the wrong way.
 
 4. On the final panel, you have to only loosen the screws on one side beam as shown. This allows one beam to slide out and you can add the final panel and tighten. Note that this panel is specifically cut to allow you to tighten the right screw after the panel and beam has slid back into place. 
 
@@ -158,7 +158,7 @@ Be sure you have the panel corners matching to the right interior corners for it
 
 ![Attaching the fan](Diagrams/FanAttach.jpg)
 
-6. Now take the 3d-printed filter holders and glue them with wood glue inside the box. The filter holders give the filters something to push against and also give you a place to use a zip tie to organize the wiring. Each panel should have 2 filter holders. Glue two at a time and cover with a heavy book until the glue dries. Then rotate the box 90 degrees and glue two more. (Images shown with wiring, which you haven't done yet).
+6. Now take the 3D-printed filter holders and glue them with wood glue inside the box. The filter holders give the filters something to push against and also give you a place to use a zip tie to organize the wiring. Each panel should have two filter holders. Glue two at a time and cover with a heavy book until the glue dries. Then rotate the box 90 degrees and glue two more. (Images shown with wiring, which you haven't done yet).
 
 ![Filter holder over plain panel](Diagrams/filterholder2.jpg)
 
@@ -172,7 +172,7 @@ A high-level schematic of the wiring is here:
 
 ![Wiring diagram](Diagrams/WiringDiagram.jpg)
 
-8. Daisy-chain the fans together as much as you can. The 5-pack of Artic fans should have extra ports to connect one fan to another. Daisy-chaining them saves you ports on the PWM Fan Hub and makes organizing wires easier, but you can always run the fan directly to the PWM Fan Hub. 
+8. Daisy-chain the fans together as much as you can. The five-pack of Artic fans should have extra ports to connect one fan to another. Daisy-chaining them saves you ports on the PWM Fan Hub and makes organizing wires easier, but you can always run the fan directly to the PWM Fan Hub. 
 
 9. Connect the DC extension cable to the DC Barrel Adapter Mount inside. The PIR Motion Sensor should be on the outside with cables running inside through the small hole. One cable will connect to the DC extension cable and the other will connect to the DC Y Cable. From the Y Cable, you'll split into LED lighting and the PWM Fan Hub. All the fans will connect to each other and the hub.
 
@@ -188,15 +188,15 @@ A high-level schematic of the wiring is here:
 
 12. If you're confident the wiring is correct, you can zip tie everything down to the holes on the filter adapter. Make sure that you've tied it down so that the DC connections won't easily come loose and that the wires won't move and get into the fan blades as the unit is being moved around. 
 
-13. Tighten all interior l-shape connectors sufficiently (no need to over tighten it).
+13. Tighten all interior L-shape connectors sufficiently (no need to over tighten it).
 
-14. Press the 20x20x2 furnace filters into the square side. The airflow is from outside to inside though the filter. The metal supports on the filter should be inside. 
+14. Press the 20x20x2 furnace filters into the square side. The airflow is from outside to inside through the filter. The metal supports on the filter should be inside. 
 
-15. Add the 3-d printed grommet (or one from a hardware store) to the PIR sensor hole. If you want, you can cover the small hole in the bottom panel with a piece of tape. 
+15. Add the 3D printed grommet (or one from a hardware store) to the PIR sensor hole. If you want, you can cover the small hole in the bottom panel with a piece of tape. 
 
-16. Add the handles to the t-slot on the top of the unit as shown in the first picture.
+16. Add the handles to the T-slot on the top of the unit as shown in the first picture.
 
-17. Also, you can add the end caps to the aluminum ends so that you don't scratch flooring or people. Once you add the end covers, you can't add anything else to the t-slot, so this is really the last step everything has gone well so far. 
+17. Also, you can add the end caps to the aluminum ends so that you don't scratch flooring or people. Once you add the end covers, you can't add anything else to the T-slot, so this is really the last step everything has gone well so far. 
 
 18. Plug the unit in and ensure the PIR sensor is pointed at where there is most likely to be people, so it can come on when people are present. 
 
@@ -233,11 +233,11 @@ Some changes I'd like to make in the future ...
 
 ## Acknowledgements
 
-- [Corsi-Rosenthal Box](https://en.wikipedia.org/wiki/Corsi%E2%80%93Rosenthal_Box): In 2020, Corsi and Rosenthal popularized a simple DIY air purifier for removing airborne infectious disease using a box fan, furnace filters, and duct tape. At the time, the idea that a Merv 13 furnace filter, which has only [85% efficiency with tiny particles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127325/) could be better than HEPA filtration which has 99.99% efficiency seemed controversial. However, the key insight was that Merv 13 furnace filters had much better airflow than HEPA filters, which meant the total amount of clean air was much more. Disadvantages of the CR Box was only that it takes up space, the box fan can be louder than ideal for a classroom, and it's a temporary solution made with duct-tape and is not extremely sturdy. [The Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/) is a non-profit dedicated to promoting clean air and provides support to related charitable projects. 
+- [Corsi-Rosenthal Box](https://en.wikipedia.org/wiki/Corsi%E2%80%93Rosenthal_Box): In 2020, Corsi and Rosenthal popularized a simple DIY air purifier for removing airborne infectious disease using a box fan, furnace filters, and duct tape. At the time, the idea that a MERV 13 furnace filter, which has only [85% efficiency with tiny particles](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7127325/) could be better than HEPA filtration which has 99.99% efficiency seemed controversial. However, the key insight was that MERV 13 furnace filters had much better airflow than HEPA filters, which meant the total amount of clean air was much more. Disadvantages of the CR Box was only that it takes up space, the box fan can be louder than ideal for a classroom, and it's a temporary solution made with duct tape and is not extremely sturdy. [The Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/) is a non-profit dedicated to promoting clean air and provides support to related charitable projects. 
 
-- [Nukit Tempest](https://cybernightmarket.com/products/the-nukit-tempest-air-purifier-kit): An innovative and durable DIY air purifier design, the Tempest is made of metal and highly resembles a PC case. It's sleek and black, the 6 P14 fans are mounted inside, and it also takes 20x20x2 furnace filters. Overall, a near perfect design. It's only weaknesses are that you need to slightly disassemble the unit to replace the air filters, and you may not be able to tell that it's plugged in and running (because it's so quiet). Estimates are around 260-280 CFM. [A highly-recommended design](https://housefresh.com/nukit-tempest-review/) for situations where you want durable, simple, and ultra-quiet air cleaning. 
+- [Nukit Tempest](https://cybernightmarket.com/products/the-nukit-tempest-air-purifier-kit): An innovative and durable DIY air purifier design, the Tempest is made of metal and highly resembles a PC case. It's sleek and black, the six P14 fans are mounted inside, and it also takes 20x20x2 furnace filters. Overall, a near perfect design. Its only weaknesses are that you need to slightly disassemble the unit to replace the air filters, and you may not be able to tell that it's plugged in and running (because it's so quiet). Estimates are around 260-280 CFM. [A highly-recommended design](https://housefresh.com/nukit-tempest-review/) for situations where you want durable, simple, and ultra-quiet air cleaning. 
 
-- [AirFanta Pro](https://www.amazon.com/AirFanta-based-Rosenthal-Purifier-3813ft2/dp/B0CJTYWQBT): Amazingly powerful and compact design using custom filters and PC fans, the 3Pro gets 430 CFM at full speed. It has a configurable adapter, which means if you don't mind the noise, you can crank it to max. However, if you want to limit the noise, you can lower the power. Importantly, this purifier is extremely portable -- you can pack it up inside a suitcase and take it with you. It's an absolute steal at $150, especially considering the amazing cleaning power. I own several of these and enthusiastically recommend them to others. In particular, in schools where noise might not be as much of an issue (e.g., cafeteria, common areas), I think this is likely the best bang-for-the-buck. In classrooms, you can also purchase 2 of them and turn them to half speed.
+- [AirFanta Pro](https://www.amazon.com/AirFanta-based-Rosenthal-Purifier-3813ft2/dp/B0CJTYWQBT): Amazingly powerful and compact design using custom filters and PC fans, the 3Pro gets 430 CFM at full speed. It has a configurable adapter, which means if you don't mind the noise, you can crank it to max. However, if you want to limit the noise, you can lower the power. Importantly, this purifier is extremely portable -- you can pack it up inside a suitcase and take it with you. It's an absolute steal at $150, especially considering the amazing cleaning power. I own several of these and enthusiastically recommend them to others. In particular, in schools where noise might not be as much of an issue (e.g., cafeteria, common areas), I think this is likely the best bang-for-the-buck. In classrooms, you can also purchase two of them and turn them to half speed.
 
 - [CleanAirKits](https://www.cleanairkits.com/): The original DIY purifier kit builders, they offer many kit models with a lot of cleaning power using ultra-quiet PC fans. They've researched a ton of different PC fans and identified the good ones. I own several Tower of Power models and have recommended them often to friends. In fact, a luggable protects my dad when he's in the office meeting people. 
 

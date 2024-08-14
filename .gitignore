@@ -1,0 +1,8 @@
+# Local files
+.fleet/
+.idea/
+.vscode/
+.DS_Store
+
+# Temporary files
+*~
